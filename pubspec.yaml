@@ -1,0 +1,35 @@
+name: ima_fashion_app
+description: "Embrace Your Unique Style with ImaFashion"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  google_nav_bar: ^5.0.6
+  google_fonts: ^6.2.0
+  font_awesome_flutter: ^10.7.0
+  carousel_slider: ^4.2.1
+  equatable: ^2.0.5
+  lottie: ^3.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/ 
